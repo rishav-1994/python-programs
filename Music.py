@@ -1,6 +1,6 @@
 Notes=['A','A#','B','C','C#','D','D#','E','F','F#','G','G#']
 #for Major scale
-n=input("Enter root note of the scale: ")
+n=input("Enter root note of the scale: ").upper()
 index=Notes.index(n)
 for i in range(1,9):
     if index>11:
